@@ -1,0 +1,30 @@
+{
+  "name": "zohocrm",
+  "version": "1.0.0",
+  "description": "Project having API functions for ZOHO CRM ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ps271/zohoCrm.git"
+  },
+  "author": "Prateek Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ps271/zohoCrm/issues"
+  },
+  "homepage": "https://github.com/ps271/zohoCrm#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
